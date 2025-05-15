@@ -147,7 +147,7 @@ async function createTransport(ws, roomId, direction) {
   try {
     const transport = await room.router.createWebRtcTransport({
       listenIps: [{ ip: "0.0.0.0", 
-      uncedIp: "35.240.180.170" }],
+      announcedIP: "66.241.125.89" }],
       enableUdp: true,
       enableTcp: true,
       preferUdp: true,
